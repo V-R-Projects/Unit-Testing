@@ -10,8 +10,6 @@
 # TYPE is a hint to GUIs for the type of VALUE, DO NOT EDIT TYPE!.
 # VALUE is the current value for the KEY.
 
-#Lol
-
 ########################
 # EXTERNAL cache entries
 ########################
