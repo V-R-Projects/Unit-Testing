@@ -1,10 +1,10 @@
-Start testing: Apr 27 20:58 CST
+Start testing: Apr 27 21:04 CST
 ----------------------------------------------------------
 1/1 Testing: HelloTest.BasicAssertions
 1/1 Test: HelloTest.BasicAssertions
 Command: "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/build/hello_test" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
 Directory: /home/ramsensei/Desktop/Ramsensei/Unit-Testing/build
-"HelloTest.BasicAssertions" start time: Apr 27 20:58 CST
+"HelloTest.BasicAssertions" start time: Apr 27 21:04 CST
 Output:
 ----------------------------------------------------------
 Running main() from /home/ramsensei/Desktop/Ramsensei/Unit-Testing/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,11 +20,11 @@ Note: Google Test filter = HelloTest.BasicAssertions
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions" end time: Apr 27 20:58 CST
+"HelloTest.BasicAssertions" end time: Apr 27 21:04 CST
 "HelloTest.BasicAssertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 27 20:58 CST
+End testing: Apr 27 21:04 CST
