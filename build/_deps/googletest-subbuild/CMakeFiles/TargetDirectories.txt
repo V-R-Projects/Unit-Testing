@@ -1,3 +1,0 @@
-/home/ramsensei/Desktop/Ramsensei/Unit-Testing/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/ramsensei/Desktop/Ramsensei/Unit-Testing/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/ramsensei/Desktop/Ramsensei/Unit-Testing/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
