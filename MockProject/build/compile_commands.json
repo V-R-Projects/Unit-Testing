@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_run.dir/Formula.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_run.dir/main.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_lib.dir/Formula.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_lib.dir/main.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock -g -std=gnu++14 -o CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock -g -std=gnu++14 -o CMakeFiles/MockProject_tst.dir/main.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/main.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/main.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/lib/googletest/googlemock",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/include -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/lib/googletest/googlemock",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/lib/googletest/googletest",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/lib/googletest/googletest",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/src/gtest_main.cc"
+}
+]

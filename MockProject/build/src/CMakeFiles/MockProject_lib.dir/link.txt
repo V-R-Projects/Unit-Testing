@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMockProject_lib.a CMakeFiles/MockProject_lib.dir/Formula.cpp.o CMakeFiles/MockProject_lib.dir/main.cpp.o
+/usr/bin/ranlib libMockProject_lib.a

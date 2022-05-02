@@ -1,0 +1,1 @@
+/usr/bin/afl-g++ -g "CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o" CMakeFiles/MockProject_tst.dir/main.cpp.o -o MockProject_tst  ../src/libMockProject_lib.a ../lib/libgtest.a ../src/libMockProject_lib.a ../lib/libgmock.a ../lib/libgtest.a -lpthread 

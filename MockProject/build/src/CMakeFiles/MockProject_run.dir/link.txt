@@ -1,0 +1,1 @@
+/usr/bin/afl-g++ -g CMakeFiles/MockProject_run.dir/Formula.cpp.o CMakeFiles/MockProject_run.dir/main.cpp.o -o MockProject_run 
