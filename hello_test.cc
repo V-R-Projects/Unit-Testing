@@ -7,3 +7,10 @@ TEST(HelloTest, BasicAssertions) {
   // Expect equality.
   EXPECT_EQ(7 * 6, 42);
 }
+
+TEST(YOLOTEST, CosasQueDanRabia) {
+  // Expect two strings not to be equal.
+  EXPECT_STRNE("world", "world");
+  // Expect equality.
+  EXPECT_EQ(7 * 6, 42);
+}
