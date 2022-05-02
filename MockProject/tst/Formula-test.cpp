@@ -4,7 +4,7 @@
 
 using ::testing::Return;
 
-TEST(blaTest, test1) {
+TEST(MockTest, test1) {
     //arrange
     //act
     //assert

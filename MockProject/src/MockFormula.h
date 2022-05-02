@@ -6,7 +6,6 @@
 
 class MockFormula : public Formula {
 public:
-    MockFormula();
     MOCK_METHOD(int, bla, (int), (override));
 };
 

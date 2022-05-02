@@ -317,6 +317,48 @@ tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o: ../tst/Formula-test.cpp \
   ../lib/googletest/googletest/include/gtest/gtest-typed-test.h \
   ../lib/googletest/googletest/include/gtest/gtest_pred_impl.h \
   ../lib/googletest/googletest/include/gtest/gtest_prod.h \
+  ../lib/googletest/googlemock/include/gmock/gmock.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-actions.h \
+  /usr/include/c++/10/algorithm \
+  /usr/include/c++/10/bits/stl_algo.h \
+  /usr/include/c++/10/bits/algorithmfwd.h \
+  /usr/include/c++/10/bits/stl_heap.h \
+  /usr/include/c++/10/bits/uniform_int_dist.h \
+  ../lib/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h \
+  ../lib/googletest/googlemock/include/gmock/internal/gmock-port.h \
+  ../lib/googletest/googlemock/include/gmock/internal/custom/gmock-port.h \
+  ../lib/googletest/googlemock/include/gmock/internal/gmock-pp.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-cardinalities.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-function-mocker.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-spec-builders.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-matchers.h \
+  /usr/include/c++/10/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+  ../lib/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-more-actions.h \
+  ../lib/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-more-matchers.h \
+  ../lib/googletest/googlemock/include/gmock/gmock-nice-strict.h \
+  ../src/MockFormula.h \
   ../src/Formula.h
 
 tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
@@ -637,7 +679,39 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
   ../lib/googletest/googletest/include/gtest/gtest_prod.h
 
 
+../src/MockFormula.h:
+
+../lib/googletest/googlemock/include/gmock/gmock-nice-strict.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/10/cmath:
+
+../lib/googletest/googlemock/include/gmock/gmock-matchers.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
 ../tst/main.cpp:
+
+/usr/include/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h:
+
+../lib/googletest/googlemock/include/gmock/gmock-cardinalities.h:
+
+../lib/googletest/googlemock/include/gmock/internal/gmock-pp.h:
+
+/usr/include/c++/10/bits/algorithmfwd.h:
 
 ../lib/googletest/googletest/include/gtest/gtest_prod.h:
 
@@ -647,15 +721,25 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/c++/10/cassert:
 
+/usr/include/c++/10/bits/uniform_int_dist.h:
+
+/usr/include/c++/10/bits/stl_heap.h:
+
 ../lib/googletest/googletest/include/gtest/internal/gtest-param-util.h:
 
 /usr/include/c++/10/bits/stream_iterator.h:
+
+../lib/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h:
 
 /usr/include/c++/10/iterator:
 
 ../lib/googletest/googletest/include/gtest/gtest-param-test.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/cxxabi_tweaks.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h:
+
+../lib/googletest/googlemock/include/gmock/gmock-actions.h:
 
 ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h:
 
@@ -695,6 +779,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/signal.h:
 
+/usr/include/c++/10/algorithm:
+
 /usr/include/x86_64-linux-gnu/sys/wait.h:
 
 ../lib/googletest/googletest/include/gtest/gtest-printers.h:
@@ -721,6 +807,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
+/usr/include/c++/10/bits/stl_algo.h:
+
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 /usr/include/linux/stddef.h:
@@ -732,6 +820,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/linux/types.h:
 
 /usr/include/linux/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/10/bits/stl_map.h:
 
@@ -750,6 +840,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/c++/10/locale:
 
 /usr/include/c++/10/iostream:
+
+/usr/include/math.h:
 
 /usr/include/string.h:
 
@@ -777,6 +869,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/c++/10/bits/ostream.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
 /usr/include/c++/10/bits/basic_ios.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
@@ -803,6 +897,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/sched.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/c++/10/bits/codecvt.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -822,6 +918,10 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 ../tst/Formula-test.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+../lib/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
@@ -850,6 +950,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+../lib/googletest/googlemock/include/gmock/internal/custom/gmock-port.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
@@ -893,6 +995,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+../lib/googletest/googlemock/include/gmock/gmock-more-matchers.h:
+
 /usr/include/c++/10/bits/cpp_type_traits.h:
 
 /usr/include/asm-generic/int-ll64.h:
@@ -910,6 +1014,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/c++/10/cwchar:
 
 ../src/Formula.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/c++/10/bits/stringfwd.h:
 
@@ -937,6 +1043,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
+../lib/googletest/googlemock/include/gmock/gmock.h:
+
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -955,6 +1063,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/c++/10/bits/alloc_traits.h:
 
+../lib/googletest/googlemock/include/gmock/gmock-function-mocker.h:
+
 /usr/include/c++/10/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h:
@@ -962,6 +1072,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/features.h:
 
 /usr/include/c++/10/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -1143,11 +1255,15 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/linux/limits.h:
+
 /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h:
 
 /usr/include/c++/10/bits/stl_function.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h:
+
+../lib/googletest/googlemock/include/gmock/internal/gmock-port.h:
 
 /usr/include/x86_64-linux-gnu/c++/10/bits/messages_members.h:
 
@@ -1175,9 +1291,13 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
 /usr/include/ctype.h:
 
 /usr/include/c++/10/bits/ios_base.h:
+
+../lib/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -1201,6 +1321,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 
 /usr/include/endian.h:
 
+../lib/googletest/googlemock/include/gmock/gmock-spec-builders.h:
+
 /usr/include/c++/10/ext/string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
@@ -1210,6 +1332,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
@@ -1258,6 +1382,8 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp \
 /usr/include/c++/10/bits/std_abs.h:
 
 /usr/include/c++/10/bits/locale_facets.tcc:
+
+../lib/googletest/googlemock/include/gmock/gmock-more-actions.h:
 
 /usr/include/c++/10/bits/functional_hash.h:
 
