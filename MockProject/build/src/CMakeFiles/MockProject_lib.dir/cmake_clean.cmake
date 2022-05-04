@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MockProject_lib.dir/Formula.cpp.o"
-  "CMakeFiles/MockProject_lib.dir/Formula.cpp.o.d"
+  "CMakeFiles/MockProject_lib.dir/card.cpp.o"
+  "CMakeFiles/MockProject_lib.dir/card.cpp.o.d"
+  "CMakeFiles/MockProject_lib.dir/dataStruct.cpp.o"
+  "CMakeFiles/MockProject_lib.dir/dataStruct.cpp.o.d"
   "CMakeFiles/MockProject_lib.dir/main.cpp.o"
   "CMakeFiles/MockProject_lib.dir/main.cpp.o.d"
+  "CMakeFiles/MockProject_lib.dir/server.cpp.o"
+  "CMakeFiles/MockProject_lib.dir/server.cpp.o.d"
   "libMockProject_lib.a"
   "libMockProject_lib.pdb"
 )

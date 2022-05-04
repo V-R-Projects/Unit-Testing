@@ -1,8 +1,10 @@
 #include <iostream>
-#include "Formula.h"
+#include "server.hpp"
+#include "dataStruct.hpp"
+#include "card.hpp"
 
 int main() {
-    Formula formula;
-    std::cout << "Bla: " << formula.bla(2) << std::endl;
+    dataStruct *pagedMemory = new dataStruct();
+    Server server = Server(pagedMemory);
     return 0;
 }

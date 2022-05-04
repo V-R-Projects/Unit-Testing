@@ -1,1 +1,1 @@
-/usr/bin/afl-g++ -g CMakeFiles/MockProject_run.dir/Formula.cpp.o CMakeFiles/MockProject_run.dir/main.cpp.o -o MockProject_run 
+/usr/bin/afl-g++ -g CMakeFiles/MockProject_run.dir/card.cpp.o CMakeFiles/MockProject_run.dir/dataStruct.cpp.o CMakeFiles/MockProject_run.dir/main.cpp.o CMakeFiles/MockProject_run.dir/server.cpp.o -o MockProject_run 

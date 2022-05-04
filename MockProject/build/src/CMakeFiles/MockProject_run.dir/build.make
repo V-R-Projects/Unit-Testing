@@ -69,24 +69,38 @@ include src/CMakeFiles/MockProject_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/MockProject_run.dir/flags.make
 
-src/CMakeFiles/MockProject_run.dir/Formula.cpp.o: src/CMakeFiles/MockProject_run.dir/flags.make
-src/CMakeFiles/MockProject_run.dir/Formula.cpp.o: ../src/Formula.cpp
-src/CMakeFiles/MockProject_run.dir/Formula.cpp.o: src/CMakeFiles/MockProject_run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/MockProject_run.dir/Formula.cpp.o"
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MockProject_run.dir/Formula.cpp.o -MF CMakeFiles/MockProject_run.dir/Formula.cpp.o.d -o CMakeFiles/MockProject_run.dir/Formula.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp
+src/CMakeFiles/MockProject_run.dir/card.cpp.o: src/CMakeFiles/MockProject_run.dir/flags.make
+src/CMakeFiles/MockProject_run.dir/card.cpp.o: ../src/card.cpp
+src/CMakeFiles/MockProject_run.dir/card.cpp.o: src/CMakeFiles/MockProject_run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/MockProject_run.dir/card.cpp.o"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MockProject_run.dir/card.cpp.o -MF CMakeFiles/MockProject_run.dir/card.cpp.o.d -o CMakeFiles/MockProject_run.dir/card.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp
 
-src/CMakeFiles/MockProject_run.dir/Formula.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MockProject_run.dir/Formula.cpp.i"
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp > CMakeFiles/MockProject_run.dir/Formula.cpp.i
+src/CMakeFiles/MockProject_run.dir/card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MockProject_run.dir/card.cpp.i"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp > CMakeFiles/MockProject_run.dir/card.cpp.i
 
-src/CMakeFiles/MockProject_run.dir/Formula.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_run.dir/Formula.cpp.s"
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp -o CMakeFiles/MockProject_run.dir/Formula.cpp.s
+src/CMakeFiles/MockProject_run.dir/card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_run.dir/card.cpp.s"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp -o CMakeFiles/MockProject_run.dir/card.cpp.s
+
+src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o: src/CMakeFiles/MockProject_run.dir/flags.make
+src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o: ../src/dataStruct.cpp
+src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o: src/CMakeFiles/MockProject_run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o -MF CMakeFiles/MockProject_run.dir/dataStruct.cpp.o.d -o CMakeFiles/MockProject_run.dir/dataStruct.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp
+
+src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MockProject_run.dir/dataStruct.cpp.i"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp > CMakeFiles/MockProject_run.dir/dataStruct.cpp.i
+
+src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_run.dir/dataStruct.cpp.s"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp -o CMakeFiles/MockProject_run.dir/dataStruct.cpp.s
 
 src/CMakeFiles/MockProject_run.dir/main.cpp.o: src/CMakeFiles/MockProject_run.dir/flags.make
 src/CMakeFiles/MockProject_run.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/MockProject_run.dir/main.cpp.o: src/CMakeFiles/MockProject_run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/MockProject_run.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/MockProject_run.dir/main.cpp.o"
 	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MockProject_run.dir/main.cpp.o -MF CMakeFiles/MockProject_run.dir/main.cpp.o.d -o CMakeFiles/MockProject_run.dir/main.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp
 
 src/CMakeFiles/MockProject_run.dir/main.cpp.i: cmake_force
@@ -97,19 +111,37 @@ src/CMakeFiles/MockProject_run.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_run.dir/main.cpp.s"
 	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp -o CMakeFiles/MockProject_run.dir/main.cpp.s
 
+src/CMakeFiles/MockProject_run.dir/server.cpp.o: src/CMakeFiles/MockProject_run.dir/flags.make
+src/CMakeFiles/MockProject_run.dir/server.cpp.o: ../src/server.cpp
+src/CMakeFiles/MockProject_run.dir/server.cpp.o: src/CMakeFiles/MockProject_run.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/MockProject_run.dir/server.cpp.o"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MockProject_run.dir/server.cpp.o -MF CMakeFiles/MockProject_run.dir/server.cpp.o.d -o CMakeFiles/MockProject_run.dir/server.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp
+
+src/CMakeFiles/MockProject_run.dir/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MockProject_run.dir/server.cpp.i"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp > CMakeFiles/MockProject_run.dir/server.cpp.i
+
+src/CMakeFiles/MockProject_run.dir/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_run.dir/server.cpp.s"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp -o CMakeFiles/MockProject_run.dir/server.cpp.s
+
 # Object files for target MockProject_run
 MockProject_run_OBJECTS = \
-"CMakeFiles/MockProject_run.dir/Formula.cpp.o" \
-"CMakeFiles/MockProject_run.dir/main.cpp.o"
+"CMakeFiles/MockProject_run.dir/card.cpp.o" \
+"CMakeFiles/MockProject_run.dir/dataStruct.cpp.o" \
+"CMakeFiles/MockProject_run.dir/main.cpp.o" \
+"CMakeFiles/MockProject_run.dir/server.cpp.o"
 
 # External object files for target MockProject_run
 MockProject_run_EXTERNAL_OBJECTS =
 
-src/MockProject_run: src/CMakeFiles/MockProject_run.dir/Formula.cpp.o
+src/MockProject_run: src/CMakeFiles/MockProject_run.dir/card.cpp.o
+src/MockProject_run: src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o
 src/MockProject_run: src/CMakeFiles/MockProject_run.dir/main.cpp.o
+src/MockProject_run: src/CMakeFiles/MockProject_run.dir/server.cpp.o
 src/MockProject_run: src/CMakeFiles/MockProject_run.dir/build.make
 src/MockProject_run: src/CMakeFiles/MockProject_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MockProject_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MockProject_run"
 	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MockProject_run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

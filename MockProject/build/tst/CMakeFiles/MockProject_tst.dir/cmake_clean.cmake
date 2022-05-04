@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o"
-  "CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o.d"
+  "CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o"
+  "CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o.d"
   "CMakeFiles/MockProject_tst.dir/main.cpp.o"
   "CMakeFiles/MockProject_tst.dir/main.cpp.o.d"
   "MockProject_tst"

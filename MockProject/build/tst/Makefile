@@ -175,29 +175,29 @@ MockProject_tst/fast:
 	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/build
 .PHONY : MockProject_tst/fast
 
-Formula-test.o: Formula-test.cpp.o
-.PHONY : Formula-test.o
+Server-Test.o: Server-Test.cpp.o
+.PHONY : Server-Test.o
 
 # target to build an object file
-Formula-test.cpp.o:
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o
-.PHONY : Formula-test.cpp.o
+Server-Test.cpp.o:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o
+.PHONY : Server-Test.cpp.o
 
-Formula-test.i: Formula-test.cpp.i
-.PHONY : Formula-test.i
+Server-Test.i: Server-Test.cpp.i
+.PHONY : Server-Test.i
 
 # target to preprocess a source file
-Formula-test.cpp.i:
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.i
-.PHONY : Formula-test.cpp.i
+Server-Test.cpp.i:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.i
+.PHONY : Server-Test.cpp.i
 
-Formula-test.s: Formula-test.cpp.s
-.PHONY : Formula-test.s
+Server-Test.s: Server-Test.cpp.s
+.PHONY : Server-Test.s
 
 # target to generate assembly for a file
-Formula-test.cpp.s:
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.s
-.PHONY : Formula-test.cpp.s
+Server-Test.cpp.s:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/MockProject_tst.dir/build.make tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.s
+.PHONY : Server-Test.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -236,9 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... MockProject_tst"
-	@echo "... Formula-test.o"
-	@echo "... Formula-test.i"
-	@echo "... Formula-test.s"
+	@echo "... Server-Test.o"
+	@echo "... Server-Test.i"
+	@echo "... Server-Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

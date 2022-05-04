@@ -189,32 +189,59 @@ MockProject_lib/fast:
 	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/build
 .PHONY : MockProject_lib/fast
 
-Formula.o: Formula.cpp.o
-.PHONY : Formula.o
+card.o: card.cpp.o
+.PHONY : card.o
 
 # target to build an object file
-Formula.cpp.o:
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/Formula.cpp.o
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/Formula.cpp.o
-.PHONY : Formula.cpp.o
+card.cpp.o:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/card.cpp.o
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/card.cpp.o
+.PHONY : card.cpp.o
 
-Formula.i: Formula.cpp.i
-.PHONY : Formula.i
+card.i: card.cpp.i
+.PHONY : card.i
 
 # target to preprocess a source file
-Formula.cpp.i:
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/Formula.cpp.i
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/Formula.cpp.i
-.PHONY : Formula.cpp.i
+card.cpp.i:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/card.cpp.i
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/card.cpp.i
+.PHONY : card.cpp.i
 
-Formula.s: Formula.cpp.s
-.PHONY : Formula.s
+card.s: card.cpp.s
+.PHONY : card.s
 
 # target to generate assembly for a file
-Formula.cpp.s:
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/Formula.cpp.s
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/Formula.cpp.s
-.PHONY : Formula.cpp.s
+card.cpp.s:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/card.cpp.s
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/card.cpp.s
+.PHONY : card.cpp.s
+
+dataStruct.o: dataStruct.cpp.o
+.PHONY : dataStruct.o
+
+# target to build an object file
+dataStruct.cpp.o:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.o
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/dataStruct.cpp.o
+.PHONY : dataStruct.cpp.o
+
+dataStruct.i: dataStruct.cpp.i
+.PHONY : dataStruct.i
+
+# target to preprocess a source file
+dataStruct.cpp.i:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.i
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/dataStruct.cpp.i
+.PHONY : dataStruct.cpp.i
+
+dataStruct.s: dataStruct.cpp.s
+.PHONY : dataStruct.s
+
+# target to generate assembly for a file
+dataStruct.cpp.s:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/dataStruct.cpp.s
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/dataStruct.cpp.s
+.PHONY : dataStruct.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -243,6 +270,33 @@ main.cpp.s:
 	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+server.o: server.cpp.o
+.PHONY : server.o
+
+# target to build an object file
+server.cpp.o:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/server.cpp.o
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/server.cpp.o
+.PHONY : server.cpp.o
+
+server.i: server.cpp.i
+.PHONY : server.i
+
+# target to preprocess a source file
+server.cpp.i:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/server.cpp.i
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/server.cpp.i
+.PHONY : server.cpp.i
+
+server.s: server.cpp.s
+.PHONY : server.s
+
+# target to generate assembly for a file
+server.cpp.s:
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_run.dir/build.make src/CMakeFiles/MockProject_run.dir/server.cpp.s
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MockProject_lib.dir/build.make src/CMakeFiles/MockProject_lib.dir/server.cpp.s
+.PHONY : server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,12 +311,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MockProject_lib"
 	@echo "... MockProject_run"
-	@echo "... Formula.o"
-	@echo "... Formula.i"
-	@echo "... Formula.s"
+	@echo "... card.o"
+	@echo "... card.i"
+	@echo "... card.s"
+	@echo "... dataStruct.o"
+	@echo "... dataStruct.i"
+	@echo "... dataStruct.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... server.o"
+	@echo "... server.i"
+	@echo "... server.s"
 .PHONY : help
 
 

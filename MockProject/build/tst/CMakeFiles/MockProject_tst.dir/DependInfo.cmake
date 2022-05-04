@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp" "tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o" "gcc" "tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o.d"
+  "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Server-Test.cpp" "tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o" "gcc" "tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o.d"
   "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/main.cpp" "tst/CMakeFiles/MockProject_tst.dir/main.cpp.o" "gcc" "tst/CMakeFiles/MockProject_tst.dir/main.cpp.o.d"
   )
 

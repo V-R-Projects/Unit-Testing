@@ -69,19 +69,19 @@ include tst/CMakeFiles/MockProject_tst.dir/progress.make
 # Include the compile flags for this target's objects.
 include tst/CMakeFiles/MockProject_tst.dir/flags.make
 
-tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o: tst/CMakeFiles/MockProject_tst.dir/flags.make
-tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o: ../tst/Formula-test.cpp
-tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o: tst/CMakeFiles/MockProject_tst.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o"
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o -MF CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o.d -o CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp
+tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o: tst/CMakeFiles/MockProject_tst.dir/flags.make
+tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o: ../tst/Server-Test.cpp
+tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o: tst/CMakeFiles/MockProject_tst.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o -MF CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o.d -o CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Server-Test.cpp
 
-tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MockProject_tst.dir/Formula-test.cpp.i"
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp > CMakeFiles/MockProject_tst.dir/Formula-test.cpp.i
+tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MockProject_tst.dir/Server-Test.cpp.i"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Server-Test.cpp > CMakeFiles/MockProject_tst.dir/Server-Test.cpp.i
 
-tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_tst.dir/Formula-test.cpp.s"
-	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp -o CMakeFiles/MockProject_tst.dir/Formula-test.cpp.s
+tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MockProject_tst.dir/Server-Test.cpp.s"
+	cd /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst && /usr/bin/afl-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Server-Test.cpp -o CMakeFiles/MockProject_tst.dir/Server-Test.cpp.s
 
 tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: tst/CMakeFiles/MockProject_tst.dir/flags.make
 tst/CMakeFiles/MockProject_tst.dir/main.cpp.o: ../tst/main.cpp
@@ -99,13 +99,13 @@ tst/CMakeFiles/MockProject_tst.dir/main.cpp.s: cmake_force
 
 # Object files for target MockProject_tst
 MockProject_tst_OBJECTS = \
-"CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o" \
+"CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o" \
 "CMakeFiles/MockProject_tst.dir/main.cpp.o"
 
 # External object files for target MockProject_tst
 MockProject_tst_EXTERNAL_OBJECTS =
 
-tst/MockProject_tst: tst/CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o
+tst/MockProject_tst: tst/CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o
 tst/MockProject_tst: tst/CMakeFiles/MockProject_tst.dir/main.cpp.o
 tst/MockProject_tst: tst/CMakeFiles/MockProject_tst.dir/build.make
 tst/MockProject_tst: src/libMockProject_lib.a

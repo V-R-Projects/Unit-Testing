@@ -1,8 +1,13 @@
 [
 {
   "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
-  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_run.dir/Formula.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp",
-  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp"
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_run.dir/card.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_run.dir/dataStruct.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp"
 },
 {
   "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
@@ -11,8 +16,18 @@
 },
 {
   "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
-  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_lib.dir/Formula.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp",
-  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/Formula.cpp"
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_run.dir/server.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_lib.dir/card.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/card.cpp"
+},
+{
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_lib.dir/dataStruct.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/dataStruct.cpp"
 },
 {
   "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
@@ -20,9 +35,14 @@
   "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/main.cpp"
 },
 {
+  "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/src",
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -g -std=gnu++14 -o CMakeFiles/MockProject_lib.dir/server.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src/server.cpp"
+},
+{
   "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst",
-  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock -g -std=gnu++14 -o CMakeFiles/MockProject_tst.dir/Formula-test.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp",
-  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Formula-test.cpp"
+  "command": "/usr/bin/afl-g++  -I/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/src -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googletest -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock/include -isystem /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/lib/googletest/googlemock -g -std=gnu++14 -o CMakeFiles/MockProject_tst.dir/Server-Test.cpp.o -c /home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Server-Test.cpp",
+  "file": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/tst/Server-Test.cpp"
 },
 {
   "directory": "/home/ramsensei/Desktop/Ramsensei/Unit-Testing/MockProject/build/tst",
